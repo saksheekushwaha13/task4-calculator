@@ -1,0 +1,90 @@
+.head {
+    margin-bottom: 100px;
+}
+
+.head h3 {
+    text-align: center;
+    padding: 3px;
+    color: white
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #181b28;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.box div {
+    display: flex;
+    flex-direction: column;
+}
+
+.input input {
+    border: none;
+    border-radius: 14px;
+    margin: 4px;
+    padding: 8px;
+    font-size: 30px;
+    height: 80px;
+    background-color: #dcdbe1;
+    text-align: right;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.button div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn {
+    border: none;
+    margin: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: #65268f;
+    padding: 5px;
+    font-size: 20px;
+    color: #dcdbe1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.btn:hover {
+    color: white;
+}
+
+.zero {
+    flex: 0.75;
+}
+
+.dot {
+    flex: 0.25;
+}
+
+.a {
+    background-color: #fb0067;
+}
+
+.a:hover {
+    color: #181b28;
+}
+
+.equals {
+    width: 100px;
+    background-color: #fb0067;
+}
