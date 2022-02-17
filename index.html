@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <DIV class="head">
+        <h3 id="heading">Calculator</h3>
+    </DIV>
+    <DIV class="Container">
+        <DIV class="box">
+            <DIV class="input">
+                <input id="i" value="0">
+                <DIV>
+                    <DIV class="button">
+                        <DIV>
+                            <BUTTON id="c" class="btn a" onclick="clearo()"><h3>C</h3></BUTTON>
+                            <BUTTON id="x" class="btn a" onclick="clearone()"><h3>X</h3></BUTTON>
+                            <BUTTON id="/" class="btn " value="/" onclick="append(this.value)"><h3>/</h3></BUTTON>
+                            <BUTTON id="*" class="btn " value="*" onclick="append(this.value)"><h3>*</h3></BUTTON>
+                        </DIV>
+                        <DIV>
+                            <BUTTON id="7" class="btn" value="7" onclick="append(this.value)"><h3>7</h3></BUTTON>
+                            <BUTTON id="8" class="btn" value="8" onclick="append(this.value)"><h3>8</h3></BUTTON>
+                            <BUTTON id="9" class="btn" value="9" onclick="append(this.value)"><h3>9</h3></BUTTON>
+                            <BUTTON id="-" class="btn" value="-" onclick="append(this.value)"><h3>-</h3></BUTTON>
+                        </DIV>
+                        <DIV>
+                            <BUTTON id="6" class="btn" value="6" onclick="append(this.value)"><h3>6</h3></BUTTON>
+                            <BUTTON id="5" class="btn" value="5" onclick="append(this.value)"><h3>5</h3></BUTTON>
+                            <BUTTON id="4" class="btn" value="4" onclick="append(this.value)"><h3>4</h3></BUTTON>
+                            <BUTTON id="+" class="btn" value="+" onclick="append(this.value)"><h3>+</h3></BUTTON>
+                        </DIV>
+                        <DIV>
+                            <BUTTON id="3" class="btn" value="3" onclick="append(this.value)"><h3>3</h3></BUTTON>
+                            <BUTTON id="2" class="btn" value="2" onclick="append(this.value)"><h3>2</h3></BUTTON>
+                            <BUTTON id="1" class="btn" value="1" onclick="append(this.value)"><h3>1</h3></BUTTON>
+                            <BUTTON id="=" class="btn equals" value="=" onclick="solve()"><h3>=</h3></BUTTON>
+                        </DIV>
+
+                        <DIV>
+                            <BUTTON id="0" class="btn zero" value="0" onclick="append(this.value)"><h3>0</h3></BUTTON>
+                            <BUTTON id="." class="btn dot" value="." onclick="append(this.value)"><h3>.</h3></BUTTON>
+                        </DIV>
+                    </DIV>
+                </DIV>
+            </DIV>
+            <script src="index.js"></script>
+</body>
+
+</html>
